@@ -1,0 +1,69 @@
+/* big tablet to 1200px*/
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        position: absolute;
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+
+/* Small tablet to big tablet: 768px to 1023px*/
+@media only screen and (max-width: 1023px){
+    body{
+        font-size: 18px;
+    }
+    #features{
+        padding: 60px 0 30px;
+    }
+    #showcase{
+        padding: 30px 0 60px;
+        background-color: #F0EEED;
+    }
+    
+    #testimonials {
+        padding: 40px 0;
+        background-color: #BEDBBB;
+        color: #0D3E2F;
+    }
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+
+/* Small phone to small tablets: 481px to 767px*/
+@media only screen and (max-width: 767px){
+    body{
+        font-size: 16px;
+    }
+    .row,.hero-text-box{
+        padding: 0 4%;
+    }
+    .col{width: 100%;}
+    #features{
+        padding: 30px 0 15px;
+    }
+    #showcase{
+        padding: 15px 0 30px;
+        background-color: #F0EEED;
+    }
+    
+    #testimonials {
+        padding: 20px 0;
+        background-color: #BEDBBB;
+        color: #0D3E2F;
+    }
+    .long-copy{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+/* Small phone: 0 to 480px*/
+@media only screen and (max-width: 480px){
+    
+}
